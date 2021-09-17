@@ -30,17 +30,23 @@
         <option>option 2</option>
       </select>
       <br>
-      <label>Radio : </label>
-      <input name="user-radio" value="definitely" type="radio" class="input-radio" checked="">
-      <input name="user-radio" value="not" type="radio" class="input-radio" checked="">
-      <br>
-      <label>Check : </label>
-      <input name="projects" value="front-end-projects" type="checkbox" class="input-checkbox">
-      <input name="projects" value="back-end-projects" type="checkbox" class="input-checkbox">
-      <input name="projects" value="mobile-end-projects" type="checkbox" class="input-checkbox">
-      <br>
-      <label>Addtional Comments : </label>
-      <textarea name="comments"></textarea>
+      <div id="selection">
+        <label>Radio : </label>
+        <input name="user-radio" value="definitely" type="radio" class="input-radio" checked=""> definitely
+        <input name="user-radio" value="not" type="radio" class="input-radio" checked=""> not
+        <br>
+        <label>Check : </label>
+        <input name="projects" value="front-end-projects" type="checkbox" class="input-checkbox">front-end
+        <input name="projects" value="back-end-projects" type="checkbox" class="input-checkbox">backed-end
+        <input name="projects" value="mobile-end-projects" type="checkbox" class="input-checkbox">mobile
+        <br>
+      </div>
+      <div id="textarea">
+        <label>Addtional Comments : </label>
+        <textarea name="comments" ></textarea>
+        <br>
+      </div>
+    
       <button type="submit" id="submit">Submit</button>
     </form>
     <script  src="js/index.js"></script>
