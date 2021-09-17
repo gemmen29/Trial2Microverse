@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <!-- id="name-label", id="email-label", and id="number-label" -->
+      <label id="name-label">Name : 
+        <input id="name" placeholder="Name" type="text" required/> 
+      </label>
+      <br>
+      <label id="email-label">Email : 
+        <input id="email" placeholder="Email" type="email" required/>
+      </label>
+      <br>
+      <label id="number-label">Number : 
+        <input id="number" placeholder="Number" type="number" min="0" max="20"/>
+      </label>
+      <br>
+      <select id="dropdown">
+        <!-- <option selected="false">select an option</option> -->
+        <option>option 1</option>
+        <option>option 2</option>
+      </select>
+      <br>
+      <label>Radio : </label>
+      <input name="user-radio" value="definitely" type="radio" class="input-radio" checked="">
+      <input name="user-radio" value="not" type="radio" class="input-radio" checked="">
+      <br>
+      <label>Check : </label>
+      <input name="projects" value="front-end-projects" type="checkbox" class="input-checkbox">
+      <input name="projects" value="back-end-projects" type="checkbox" class="input-checkbox">
+      <input name="projects" value="mobile-end-projects" type="checkbox" class="input-checkbox">
+      <br>
+      <label>Addtional Comments : </label>
+      <textarea name="comments"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
